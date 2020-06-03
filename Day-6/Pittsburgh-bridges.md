@@ -1,4 +1,10 @@
-# Attribute description
+# Pittsburgh Bridges
+# Sources:
+
+-- Yoram Reich and Steven J. Fenves Department of Civil Engineering and Engineering Design Research Center Carnegie Mellon University Pittsburgh, PA 15213 Compiled from various sources.
+-- Date: 1 August 1990
+
+# Attribute Description
 
 The type field states whether a property is continuous/integer (c) or nominal (n). For properties with c,n type, the range of continuous numbers is given first and the possible values of the nominal follow the dash.
 
@@ -27,4 +33,3 @@ SPAN n SHORT, MEDIUM, LONG
 REL-L n S, S-F, F
 
 TYPE(Target) n WOOD, SUSPEN, SIMPLE-T, ARCH, CANTILEV, CONT-T
-
