@@ -1,8 +1,12 @@
-Title: Chess End-Game -- King+Rook versus King+Pawn on a7 (usually abbreviated KRKPA7). The pawn on a7 means it is one square away from queening. It is the King+Rook's side (white) to move.
+# Title: Chess End-Game 
+-- King+Rook versus King+Pawn on a7 (usually abbreviated KRKPA7). The pawn on a7 means it is one square away from queening. It is the King+Rook's side (white) to move.
 
-Sources: (a) Database originally generated and described by Alen Shapiro. (b) Donor/Coder: Rob Holte (holte@uottawa.bitnet). The database was supplied to Holte by Peter Clark of the Turing Institute in Glasgow (pete@turing.ac.uk). (c) Date: 1 August 1989
+# Sources: 
 
-Past Usage:
+(a) Database originally generated and described by Alen Shapiro. (b) Donor/Coder: Rob Holte (holte@uottawa.bitnet). The database was supplied to Holte by Peter Clark of the Turing Institute in Glasgow (pete@turing.ac.uk). (c) Date: 1 August 1989
+
+# Past Usage:
+
 Alen D. Shapiro (1983,1987), "Structured Induction in Expert Systems", Addison-Wesley. This book is based on Shapiro's Ph.D. thesis (1983) at the University of Edinburgh entitled "The Role of Structured Induction in Expert Systems".
 Stephen Muggleton (1987), "Structuring Knowledge by Asking Questions", pp.218-229 in "Progress in Machine Learning", edited by I. Bratko and Nada Lavrac, Sigma Press, Wilmslow, England SK9 5BB.
 Robert C. Holte, Liane Acker, and Bruce W. Porter (1989), "Concept Learning and the Problem of Small Disjuncts", Proceedings of IJCAI. Also available as technical report AI89-106, Computer Sciences Department, University of Texas at Austin, Austin, Texas 78712.
