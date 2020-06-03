@@ -12,9 +12,7 @@ Number of Instances: 3196 total
 
 Number of Attributes: 36
 
-Attribute Summaries: Classes (2): -- White-can-win ("won") and White-cannot-win ("nowin"). I believe that White is deemed to be unable to win if the Black pawn can safely advance. Attributes: see Shapiro's book.
-
-Missing Attributes: -- none
+Attribute Summaries: Classes (2): -- White-can-win ("won") and White-cannot-win ("nowin").
 
 Class Distribution: In 1669 of the positions (52%), White can win. In 1527 of the positions (48%), White cannot win.
 The format for instances in this database is a sequence of 37 attribute values. Each instance is a board-descriptions for this chess endgame. The first 36 attributes describe the board. The last (37th) attribute is the classification: "win" or "nowin". There are 0 missing values. A typical board-description is
@@ -22,6 +20,7 @@ The format for instances in this database is a sequence of 37 attribute values. 
 f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,won
 
 The names of the features do not appear in the board-descriptions. Instead, each feature correponds to a particular position in the feature-value list. For example, the head of this list is the value for the feature "bkblk". The following is the list of features, in the order in which their values appear in the feature-value list:
+[bkblk,bknwy,bkon8,bkona,bkspr,bkxbq,bkxcr,bkxwp,blxwp,bxqsq,cntxt,dsopp,dwipd, hdchk,katri,mulch,qxmsq,r2ar8,reskd,reskr,rimmx,rkxwp,rxmsq,simpl,skach,skewr, skrxp,spcop,stlmt,thrsk,wkcti,wkna8,wknck,wkovl,wkpos,wtoeg]
 
 1	bkblk	the BK is not in the way
 2	bknwy	the BK is not in the BR's way
