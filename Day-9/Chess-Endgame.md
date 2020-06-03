@@ -12,13 +12,20 @@ Stephen Muggleton (1987), "Structuring Knowledge by Asking Questions", pp.218-22
 Robert C. Holte, Liane Acker, and Bruce W. Porter (1989), "Concept Learning and the Problem of Small Disjuncts", Proceedings of IJCAI. Also available as technical report AI89-106, Computer Sciences Department, University of Texas at Austin, Austin, Texas 78712.
 Relevant Information: The dataset format is described below. Note: the format of this database was modified on 2/26/90 to conform with the format of all the other databases in the UCI repository of machine learning databases.
 
-Number of Instances: 3196 total
+# Number of Instances:
 
-Number of Attributes: 36
+3196 total
 
-Attribute Summaries: Classes (2): -- White-can-win ("won") and White-cannot-win ("nowin").
+# Number of Attributes:
+36
 
-Class Distribution: In 1669 of the positions (52%), White can win. In 1527 of the positions (48%), White cannot win.
+# Target Summary: 
+
+Classes (2): -- White-can-win ("won") and White-cannot-win ("nowin").
+
+# Class Distribution: 
+
+In 1669 of the positions (52%), White can win. In 1527 of the positions (48%), White cannot win.
 The format for instances in this database is a sequence of 37 attribute values. Each instance is a board-descriptions for this chess endgame. The first 36 attributes describe the board. The last (37th) attribute is the classification: "win" or "nowin". There are 0 missing values. A typical board-description is
 
 f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,won
